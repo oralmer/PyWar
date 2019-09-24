@@ -152,7 +152,6 @@ def perform_battle_in_tile(tile, participants):
                 pieces_to_kill.add(piece)
             if piece.should_conquer(role, duel_participants):
                 conquering_pieces.append(piece)
-        assert (len(conquering_pieces) <= 1), 'Too many conquering pieces found!'
         if conquering_pieces:
             country = conquering_pieces[0].country
             tile.country = country
@@ -413,7 +412,7 @@ class Tank(BasePiece):
         return False
 
     def should_conquer(self, role, participants):
-        return role == ATTACKER_ROLE and len(participants) == 1
+        return role == ATTACKER_ROLE and len([participant for participant in participants if participant != (None, None)]) == 1
 
 
 class Airplane(FlyingPiece):
