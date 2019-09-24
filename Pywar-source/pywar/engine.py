@@ -597,7 +597,9 @@ class Bunker(BasePiece):
         for participant, other_role in participants:
             if other_role == ATTACKER_ROLE and isinstance(participant, (Tank, Airplane, Helicopter, Artillery)):
                 self.hits += 1
-        return self.hits == BUNKER_DEFEND_MULTIPLIER
+                if self.hits == BUNKER_DEFEND_MULTIPLIER:
+                    return True
+        return False
 
 
 class Spy(BasePiece):
