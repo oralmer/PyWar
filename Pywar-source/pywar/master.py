@@ -211,10 +211,14 @@ class Master(object):
         self.game_log.addfile(info, io.BytesIO(turn_data))
 
     def add_piece_data(self, commands):
-        for command in commands:
-            command['type'] = self.game.pieces[command['pieceId']].piece_type
-            command['location'] = self.game.pieces[command['pieceId']]._tile._coordinates_dict
-        return commands
+        try:
+            for command in commands:
+                command['type'] = self.game.pieces[command['pieceId']].piece_type
+                command['location'] = self.game.pieces[command['pieceId']]._tile._coordinates_dict
+        except Exception:
+            pass
+        finally:
+            return commands
 
     def finalize(self):
         for slave in self.slaves.values():
