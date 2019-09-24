@@ -1,1 +1,10 @@
-{"USA": {"tactical": "example/empty_tactical.py", "strategic": "example/empty_strategic.py"}, "UK": {"tactical": "example/tactical_example_with_all_commands.py", "strategic": "example/simple_strategic.py"}}
+{
+  "USA": {
+    "tactical": "example/empty_tactical.py",
+    "strategic": "example/empty_strategic.py"
+  },
+  "UK": {
+    "tactical": "example/tactical_example_with_all_commands.py",
+    "strategic": "example/simple_strategic.py"
+  }
+}

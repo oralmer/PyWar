@@ -1,2 +1,11 @@
-{"absurdistan": {"tactical": "scripts/tactical.py", "strategic": "scripts/strategic.py"}, "cobrastan": {"tactical": "scripts/tactical.py", "strategic": "scripts/strategic.py"}}
+{
+  "absurdistan": {
+    "tactical": "scripts/tactical.py",
+    "strategic": "scripts/strategic.py"
+  },
+  "cobrastan": {
+    "tactical": "scripts/tactical.py",
+    "strategic": "scripts/strategic.py"
+  }
+}
 	

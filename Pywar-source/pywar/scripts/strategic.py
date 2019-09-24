@@ -1,2 +1,2 @@
 def do_turn(tactical):
-  tactical.build_tank()
+    tactical.build_tank()

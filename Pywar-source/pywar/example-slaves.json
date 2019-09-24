@@ -1,1 +1,10 @@
-{"USA": {"tactical": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/tactical.py", "strategic": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/strategic.py"}, "UK": {"tactical": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/tactical.py", "strategic": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/strategic.py"}}
+{
+  "USA": {
+    "tactical": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/tactical.py",
+    "strategic": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/strategic.py"
+  },
+  "UK": {
+    "tactical": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/tactical.py",
+    "strategic": "/specific/a/home/cc/students/math/danielnukrai/Downloads/pywar/pywar/example/strategic.py"
+  }
+}

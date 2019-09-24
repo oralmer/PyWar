@@ -1,1 +1,990 @@
-{"width": 10, "tiles": [[{"money": 5, "country": "cobrastan", "coordinate": {"x": 0, "y": 0}, "pieces": [{"country": "cobrastan", "type": "spy", "id": "41c8245b-7b48-4e09-8873-a369668f4fd2"}, {"money": 0, "country": "cobrastan", "type": "builder", "id": "145cc4cf-3389-46f9-8659-7af2a903d21b"}]}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 0, "y": 1}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 0, "y": 2}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 0, "y": 3}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 0, "y": 4}, "pieces": [{"country": "cobrastan", "type": "tank", "id": "278c1d15-648e-4360-891c-01209a1d32ad"}]}, {"money": 5, "country": null, "coordinate": {"x": 0, "y": 5}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 0, "y": 6}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 0, "y": 7}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 0, "y": 8}, "pieces": []}, {"money": 60, "country": null, "coordinate": {"x": 0, "y": 9}, "pieces": []}], [{"money": 5, "country": "cobrastan", "coordinate": {"x": 1, "y": 0}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 1, "y": 1}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 1, "y": 2}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 1, "y": 3}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 1, "y": 4}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 1, "y": 5}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 1, "y": 6}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 1, "y": 7}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 1, "y": 8}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 1, "y": 9}, "pieces": []}], [{"money": 5, "country": "cobrastan", "coordinate": {"x": 2, "y": 0}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 2, "y": 1}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 2, "y": 2}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 2, "y": 3}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 2, "y": 4}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 2, "y": 5}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 2, "y": 6}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 2, "y": 7}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 2, "y": 8}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 2, "y": 9}, "pieces": []}], [{"money": 5, "country": "cobrastan", "coordinate": {"x": 3, "y": 0}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 3, "y": 1}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 3, "y": 2}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 3, "y": 3}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 3, "y": 4}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 3, "y": 5}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 3, "y": 6}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 3, "y": 7}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 3, "y": 8}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 3, "y": 9}, "pieces": []}], [{"money": 5, "country": "cobrastan", "coordinate": {"x": 4, "y": 0}, "pieces": [{"country": "cobrastan", "type": "tank", "id": "2a51be87-48aa-4ce0-a6c0-fabeab7646cf"}]}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 4, "y": 1}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 4, "y": 2}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 4, "y": 3}, "pieces": []}, {"money": 5, "country": "cobrastan", "coordinate": {"x": 4, "y": 4}, "pieces": [{"country": "cobrastan", "type": "antitank", "id": "cf467d08-e769-40f4-8243-6e887a8a369a"}]}, {"money": 30, "country": null, "coordinate": {"x": 4, "y": 5}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 4, "y": 6}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 4, "y": 7}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 4, "y": 8}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 4, "y": 9}, "pieces": []}], [{"money": 5, "country": null, "coordinate": {"x": 5, "y": 0}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 5, "y": 1}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 5, "y": 2}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 5, "y": 3}, "pieces": []}, {"money": 30, "country": null, "coordinate": {"x": 5, "y": 4}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 5, "y": 5}, "pieces": [{"country": "absurdistan", "type": "antitank", "id": "1135acfd-66d5-4236-a6f4-33541454059d"}]}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 5, "y": 6}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 5, "y": 7}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 5, "y": 8}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 5, "y": 9}, "pieces": [{"country": "absurdistan", "type": "tank", "id": "b6e33850-75bb-4d54-b78c-84d69979d1ca"}]}], [{"money": 5, "country": null, "coordinate": {"x": 6, "y": 0}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 6, "y": 1}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 6, "y": 2}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 6, "y": 3}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 6, "y": 4}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 6, "y": 5}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 6, "y": 6}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 6, "y": 7}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 6, "y": 8}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 6, "y": 9}, "pieces": []}], [{"money": 5, "country": null, "coordinate": {"x": 7, "y": 0}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 7, "y": 1}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 7, "y": 2}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 7, "y": 3}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 7, "y": 4}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 7, "y": 5}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 7, "y": 6}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 7, "y": 7}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 7, "y": 8}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 7, "y": 9}, "pieces": []}], [{"money": 5, "country": null, "coordinate": {"x": 8, "y": 0}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 8, "y": 1}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 8, "y": 2}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 8, "y": 3}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 8, "y": 4}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 8, "y": 5}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 8, "y": 6}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 8, "y": 7}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 8, "y": 8}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 8, "y": 9}, "pieces": []}], [{"money": 60, "country": null, "coordinate": {"x": 9, "y": 0}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 9, "y": 1}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 9, "y": 2}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 9, "y": 3}, "pieces": []}, {"money": 5, "country": null, "coordinate": {"x": 9, "y": 4}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 9, "y": 5}, "pieces": [{"country": "absurdistan", "type": "tank", "id": "0a943596-7193-4bf5-a607-27bdac4270d1"}]}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 9, "y": 6}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 9, "y": 7}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 9, "y": 8}, "pieces": []}, {"money": 5, "country": "absurdistan", "coordinate": {"x": 9, "y": 9}, "pieces": [{"money": 0, "country": "absurdistan", "type": "builder", "id": "8fcbd450-de72-40e7-a102-f96c9fe304d0"}, {"country": "absurdistan", "type": "spy", "id": "a85dbc58-03bb-4efe-8a14-d79e44fd101b"}]}]], "height": 10, "countries": ["cobrastan", "absurdistan"]}
+{
+  "width": 10,
+  "tiles": [
+    [
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 0,
+          "y": 0
+        },
+        "pieces": [
+          {
+            "country": "cobrastan",
+            "type": "spy",
+            "id": "41c8245b-7b48-4e09-8873-a369668f4fd2"
+          },
+          {
+            "money": 0,
+            "country": "cobrastan",
+            "type": "builder",
+            "id": "145cc4cf-3389-46f9-8659-7af2a903d21b"
+          }
+        ]
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 0,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 0,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 0,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 0,
+          "y": 4
+        },
+        "pieces": [
+          {
+            "country": "cobrastan",
+            "type": "tank",
+            "id": "278c1d15-648e-4360-891c-01209a1d32ad"
+          }
+        ]
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 0,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 0,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 0,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 0,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 60,
+        "country": null,
+        "coordinate": {
+          "x": 0,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 1,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 1,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 1,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 1,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 1,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 1,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 1,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 1,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 1,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 1,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 2,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 2,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 2,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 2,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 2,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 2,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 2,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 2,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 2,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 2,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 3,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 3,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 3,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 3,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 3,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 3,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 3,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 3,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 3,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 3,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 4,
+          "y": 0
+        },
+        "pieces": [
+          {
+            "country": "cobrastan",
+            "type": "tank",
+            "id": "2a51be87-48aa-4ce0-a6c0-fabeab7646cf"
+          }
+        ]
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 4,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 4,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 4,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "cobrastan",
+        "coordinate": {
+          "x": 4,
+          "y": 4
+        },
+        "pieces": [
+          {
+            "country": "cobrastan",
+            "type": "antitank",
+            "id": "cf467d08-e769-40f4-8243-6e887a8a369a"
+          }
+        ]
+      },
+      {
+        "money": 30,
+        "country": null,
+        "coordinate": {
+          "x": 4,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 4,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 4,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 4,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 4,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 5,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 5,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 5,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 5,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 30,
+        "country": null,
+        "coordinate": {
+          "x": 5,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 5,
+          "y": 5
+        },
+        "pieces": [
+          {
+            "country": "absurdistan",
+            "type": "antitank",
+            "id": "1135acfd-66d5-4236-a6f4-33541454059d"
+          }
+        ]
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 5,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 5,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 5,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 5,
+          "y": 9
+        },
+        "pieces": [
+          {
+            "country": "absurdistan",
+            "type": "tank",
+            "id": "b6e33850-75bb-4d54-b78c-84d69979d1ca"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 6,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 6,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 6,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 6,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 6,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 6,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 6,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 6,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 6,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 6,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 7,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 7,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 7,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 7,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 7,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 7,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 7,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 7,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 7,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 7,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 8,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 8,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 8,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 8,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 8,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 8,
+          "y": 5
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 8,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 8,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 8,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 8,
+          "y": 9
+        },
+        "pieces": []
+      }
+    ],
+    [
+      {
+        "money": 60,
+        "country": null,
+        "coordinate": {
+          "x": 9,
+          "y": 0
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 9,
+          "y": 1
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 9,
+          "y": 2
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 9,
+          "y": 3
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": null,
+        "coordinate": {
+          "x": 9,
+          "y": 4
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 9,
+          "y": 5
+        },
+        "pieces": [
+          {
+            "country": "absurdistan",
+            "type": "tank",
+            "id": "0a943596-7193-4bf5-a607-27bdac4270d1"
+          }
+        ]
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 9,
+          "y": 6
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 9,
+          "y": 7
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 9,
+          "y": 8
+        },
+        "pieces": []
+      },
+      {
+        "money": 5,
+        "country": "absurdistan",
+        "coordinate": {
+          "x": 9,
+          "y": 9
+        },
+        "pieces": [
+          {
+            "money": 0,
+            "country": "absurdistan",
+            "type": "builder",
+            "id": "8fcbd450-de72-40e7-a102-f96c9fe304d0"
+          },
+          {
+            "country": "absurdistan",
+            "type": "spy",
+            "id": "a85dbc58-03bb-4efe-8a14-d79e44fd101b"
+          }
+        ]
+      }
+    ]
+  ],
+  "height": 10,
+  "countries": [
+    "cobrastan",
+    "absurdistan"
+  ]
+}
