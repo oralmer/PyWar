@@ -198,27 +198,58 @@ class Master(object):
         """
         return [country for country in self.game.countries if len(country.tiles) > 0 and len(country.pieces) > 0]
 
-    def log_turn(self, turn_commands):
+    def run_turn(self):
+        for country, slave in self.slaves.items():
+            turn_data = self.game.to_dict_as_seen_by(country)
+            slave.send_turn_request(turn_data)
+
+        turn_commands = {}
+        for country, slave in self.slaves.items():
+            try:
+                commands = slave.get_turn_response()
+            except Exception as e:
+                print('Failed getting country {} commands: {}'.format(country.name, e))
+                turn_commands[country] = []
+            else:
+                turn_commands[country] = commands
+
+        commands_info = {country.name: self.add_piece_data(country, commands) for country, commands in
+                         turn_commands.items()}
+        self.game.apply_turn(turn_commands)
+        self.log_turn(commands_info)
+
+    def countries_in_game(self):
+        """Returns the list of countries that still participate in the game.
+
+        A country participates in the game if and only if it has at least one tile,
+        or at least one piece.
+        """
+        return [country for country in self.game.countries if len(country.tiles) > 0 and len(country.pieces) > 0]
+
+    def log_turn(self, commands_info):
         if self.game_log is None:
             return
         turn_dict = {
             'state': self.game.to_dict(),
-            'commands': {country.name: self.add_piece_data(commands) for country, commands in turn_commands.items()},
+            'commands': commands_info,
         }
         turn_data = json.dumps(turn_dict).encode('utf8')
         info = tarfile.TarInfo('turn-{}.json'.format(str(self.game.turns).zfill(self._turn_name_padding)))
         info.size = len(turn_data)
         self.game_log.addfile(info, io.BytesIO(turn_data))
 
-    def add_piece_data(self, commands):
-        try:
-            for command in commands:
-                command['type'] = self.game.pieces[command['pieceId']].piece_type
-                command['location'] = self.game.pieces[command['pieceId']]._tile._coordinates_dict
-        except Exception:
-            pass
-        finally:
-            return commands
+    def add_piece_data(self, country, commands):
+        def mapping(command):
+            temp = dict(command)
+            try:
+                temp['type'] = self.game.pieces[command['pieceId']].piece_type
+                temp['location'] = dict(self.game.pieces[command['pieceId']]._tile._coordinates_dict)
+                return temp
+            except:
+                pass
+            return temp
+
+        return list(map(mapping, commands))
 
     def finalize(self):
         for slave in self.slaves.values():
