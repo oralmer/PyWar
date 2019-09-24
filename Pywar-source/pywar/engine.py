@@ -94,8 +94,8 @@ class Game(object):
                     if self.pieces[command.piece_id].country != country:
                         raise KeyError('Wrong piece')
                     command.apply(self)
-            except:
-                print('Country has an exception, skipping commands')
+            except Exception as e:
+                print('Country has an exception, skipping commands: ', e)
         self.perform_battles()
         country_to_satelite_visible_tiles = defaultdict(set)
         country_to_visible_tiles = defaultdict(set)
