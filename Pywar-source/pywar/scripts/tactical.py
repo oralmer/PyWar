@@ -1,3 +1,5 @@
+
+
 import random
 import sys
 
@@ -44,7 +46,7 @@ def handle_tank(piece_id, piece, context, not_my_tiles):
 def handle_builder(piece_id, piece, context):
     global builder_to_coordinate_with_money
     if piece.tile.money > 0 and piece.tile.country == piece.country:
-        piece.collect_money(piece.tile.money)
+        piece.collect_money(min(piece.tile.money, constants.BUILDER_MAX_COLLECTION_IN_TURN))
     elif piece.money > constants.TANK_PRICE:
         piece.build_tank()
     else:
