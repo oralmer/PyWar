@@ -203,16 +203,17 @@ class Master(object):
             return
         turn_dict = {
             'state': self.game.to_dict(),
-            'commands': {country.name: self.add_piece_type(commands) for country, commands in turn_commands.items()},
+            'commands': {country.name: self.add_piece_data(commands) for country, commands in turn_commands.items()},
         }
         turn_data = json.dumps(turn_dict).encode('utf8')
         info = tarfile.TarInfo('turn-{}.json'.format(str(self.game.turns).zfill(self._turn_name_padding)))
         info.size = len(turn_data)
         self.game_log.addfile(info, io.BytesIO(turn_data))
 
-    def add_piece_type(self, commands):
+    def add_piece_data(self, commands):
         for command in commands:
             command['type'] = self.game.pieces[command['pieceId']].piece_type
+            command['location'] = self.game.pieces[command['pieceId']]._tile._coordinates_dict
         return commands
 
     def finalize(self):
