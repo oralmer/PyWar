@@ -309,9 +309,10 @@ class BasePiece(object):
         return False
 
     def kill(self):
-        del self.game.pieces[self._id]
-        self.tile.pieces.remove(self)
-        self.country.pieces.remove(self)
+        if self._id in self.game.pieces.keys():
+            del self.game.pieces[self._id]
+            self.tile.pieces.remove(self)
+            self.country.pieces.remove(self)
 
     def should_die_in_battle(self, role, tile, participants):
         """Returns True iff this piece should die in the given battle.
@@ -508,6 +509,7 @@ class Helicopter(FlyingPiece):
         assert (role != DEFENDER_ROLE), 'A helicopter cannot be a defender!'
         if role == ATTACKER_ROLE:
             assert (self.in_air), 'A helicopter cannot attack on land!'
+        
         for participant, other_role in participants:
             if participant is self:
                 continue
