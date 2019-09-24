@@ -481,8 +481,6 @@ class Artillery(BasePiece):
             if role == PASSIVE_ROLE and other_role == ATTACKER_ROLE and isinstance(participant,
                                                                                    (Tank, Airplane, Artillery)):
                 return True
-            if other_role == ATTACKER_ROLE and isinstance(participant, Helicopter):
-                return True
         return False
 
 
